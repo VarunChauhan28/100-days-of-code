@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-   <title>celsius to farhenheit</title>
+   <title> farhenheit to celsius</title>
 
 </head>
 <body>
    <input tupe="number" id="farhenheit">
    <p/>
-   <input type="button" onClick='c2f()' value="convert"><br>
+   <input type="button" onClick='f2c()' value="convert"><br>
    <p/>
    <input tupe="number" id="celsius" disabled>
 </body>
@@ -15,7 +15,7 @@
 <script>
         var cel=document.getElementById('celsius')
         var far=document.getElementById('farhenheit')
-        function c2f()
+        function f2c()
         {
            
             cel.value=0.555*(far.value-32)
